@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: titanium-firebase-crashreporting
+author: Hans Knoechel
+license: Apache 2
+copyright: Copyright (c) 2017 by Axway Appcelerator
+
+# these should not be edited
+name: titanium-firebase-crashreporting
+moduleid: firebase.crashreporting
+guid: 7b426d19-3e7c-4f3e-9e0b-2dd18a60d2da
+platform: iphone
+minsdk: 6.2.0.GA
