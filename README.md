@@ -17,8 +17,6 @@ Use the native Firebase SDK in Axway Titanium. This repository is part of the [T
 
 ##### `crashCollectionEnabled` (Boolean, get/set)
 
-More TBA!
-
 ## Example
 ```js
 // Require the Firebase Crash Reporting module
