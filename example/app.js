@@ -1,7 +1,11 @@
-// Require the Firebase CloudMessaging module
-var FirebaseCloudMessaging = require('firebase.cloudmessaging');
+// Require the Firebase Crash Reporting module
+var FirebaseCrashReporting = require('firebase.crashreporting');
 
-// Configure FirebaseCloudMessaging
-FirebaseCloudMessaging.configure();
+// Log a crash to the Firebase console
+FirebaseCrashReporting.log('Titanium rocks!');
 
-// TODO: Write more examples based from the Readme.
+// Determine if crash-collection is enabled, default: true
+Ti.API.info('Crash-collection enabled: ' + FirebaseCrashReporting.crashCollectionEnabled);
+
+// Toogle crash-collection
+FirebaseCrashReporting.crashCollectionEnabled = false;

@@ -10,7 +10,12 @@ Use the native Firebase SDK in Axway Titanium. This repository is part of the [T
 
 #### Methods
 
-##### `configure()`
+##### `log(message)`
+  - `message` (String)
+
+#### Properties
+
+##### `crashCollectionEnabled` (Boolean, get/set)
 
 More TBA!
 
@@ -19,10 +24,14 @@ More TBA!
 // Require the Firebase Crash Reporting module
 var FirebaseCrashReporting = require('firebase.crashreporting');
 
-// Configure Firebase
-FirebaseCrashReporting.configure();
-
+// Log a crash to the Firebase console
 FirebaseCrashReporting.log('Titanium rocks!');
+
+// Determine if crash-collection is enabled, default: true
+Ti.API.info('Crash-collection enabled: ' + FirebaseCrashReporting.crashCollectionEnabled);
+
+// Toogle crash-collection
+FirebaseCrashReporting.crashCollectionEnabled = false;
 ```
 
 ## Build
