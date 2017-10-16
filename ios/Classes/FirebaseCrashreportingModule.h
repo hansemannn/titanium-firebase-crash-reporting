@@ -1,5 +1,5 @@
 /**
- * titanium-firebase-crashreporting
+ * titanium-firebase-crash-reporting
  *
  * Created by Hans Knoechel
  * Copyright (c) 2017 Your Company. All rights reserved.
