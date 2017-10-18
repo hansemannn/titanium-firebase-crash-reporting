@@ -29,7 +29,6 @@
 		AA747D9F0F9514B9006C5449 /* FirebaseCrashreporting_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* FirebaseCrashreporting_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DBB9D4381F94FA7A004EA6FA /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB9D4361F94FA73004EA6FA /* FirebaseCrash.framework */; };
-		DBB9D4391F94FA7A004EA6FA /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB9D4371F94FA73004EA6FA /* Protobuf.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libfirebase.crashreporting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfirebase.crashreporting.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB9D4361F94FA73004EA6FA /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = platform/FirebaseCrash.framework; sourceTree = "<group>"; };
-		DBB9D4371F94FA73004EA6FA /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = platform/Protobuf.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB9D4381F94FA7A004EA6FA /* FirebaseCrash.framework in Frameworks */,
-				DBB9D4391F94FA7A004EA6FA /* Protobuf.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				DBB9D4361F94FA73004EA6FA /* FirebaseCrash.framework */,
-				DBB9D4371F94FA73004EA6FA /* Protobuf.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
