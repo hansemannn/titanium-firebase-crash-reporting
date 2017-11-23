@@ -8,11 +8,12 @@ Use the native Firebase SDK in Axway Titanium. This repository is part of the [T
 - [x] [Stable release](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases)
 - [x] [![gitTio](http://hans-knoechel.de/shields/shield-gittio.svg)](http://gitt.io/component/firebase.crashreporting)
 
-## Before using
-- Download a service account key to authenticate your uploads. From the [Firebase console](https://console.firebase.google.com/project/_/settings/serviceaccounts/crashreporting), select your project, and then click Generate New Private Key.
-- Place the downloaded `.json` on your root project folder and rename it to `ServiceAccount.json`.
-- Download the `scripts` folder and place it into your root project folder.
-- Create a file called `titanium-firebase-script.sh` inside scripts.
+## Setup
+- Download a service account key to authenticate your dsym-uploads. From the [Firebase console](https://console.firebase.google.com/project/_/settings/serviceaccounts/crashreporting), select your project, 
+and then `Generate New Private Key`.
+- Place the downloaded `.json` in the root of your project folder and rename it to `ServiceAccount.json`.
+- Download the `scripts/` folder from this repository and place it in the root of your project folder as well.
+- Create a file called `titanium-firebase-script.sh` inside `scripts/`.
 
 ```sh
 #!/bin/bash
@@ -23,7 +24,6 @@ GOOGLE_APP_ID=1:xxx:ios:xxx
 # Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded
 "<PATH TO YOUR PROJECT>/scripts/upload-sym" "<PATH TO YOUR PROJECT>/ServiceAccount.json"
 ```
-
 
 ## API's
 
