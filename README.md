@@ -2,7 +2,7 @@
 Use the native Firebase SDK in Axway Titanium. This repository is part of the [Titanium Firebase](https://github.com/hansemannn/titanium-firebase) project.
 
 ## Requirements
-- [x] Titanium SDK 6.2.0 or later
+- [x] Titanium SDK 6.3.0 or later
 
 ## Download
 - [x] [Stable release](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases)
@@ -61,5 +61,5 @@ appc ti build -p ios --build-only
 
 ## Legal
 
-This module is Copyright (c) 2017-Present by Appcelerator, Inc. All Rights Reserved. 
+This module is Copyright (c) 2017-Present by Hans Knoechel. All Rights Reserved. 
 Usage of this module is subject to the Terms of Service agreement with Appcelerator, Inc.  

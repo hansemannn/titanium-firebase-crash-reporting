@@ -8,11 +8,11 @@ architectures: armv7 arm64 i386 x86_64
 description: titanium-firebase-crash-reporting
 author: Hans Knoechel
 license: Apache 2
-copyright: Copyright (c) 2017 by Axway Appcelerator
+copyright: Copyright (c) 2017 by Hans Knoechel
 
 # these should not be edited
 name: titanium-firebase-crash-reporting
 moduleid: firebase.crashreporting
 guid: 7b426d19-3e7c-4f3e-9e0b-2dd18a60d2da
 platform: iphone
-minsdk: 6.2.0.GA
+minsdk: 6.3.0.GA
