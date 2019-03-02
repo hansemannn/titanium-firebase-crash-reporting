@@ -1,6 +1,8 @@
 # Firebase Crash Reporting - Titanium Module
 Use the native Firebase SDK in Axway Titanium. This repository is part of the [Titanium Firebase](https://github.com/hansemannn/titanium-firebase) project.
 
+> ⚠️ This module has been deprecated in favor of the [Ti.Crashlytics](https://github.com/hansemannn/titanium-crashlytics) module which is the way to go and officially recommended by Google.
+
 ## Requirements
 - [x] The [Firebase Core](https://github.com/hansemannn/titanium-firebase-core) module
 - [x] Titanium SDK 6.3.0 or later
